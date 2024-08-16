@@ -1,0 +1,40 @@
+.navbar {
+    background-color: #1B1A55;
+    padding: 1rem;
+    animation: slideDown 1s ease-out;
+    height: 60px;
+  }
+  
+  .logo {
+    width: 50px;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    color: white;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #ccc;
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
